@@ -1,0 +1,196 @@
+/*KINDLE FIRE RESPONSIVE*/
+
+@media(max-width:800px) {
+    .main {
+        /* height: 100%; */
+    }
+    .titleBar__right {
+        justify-content: space-between;
+        width: 100%;
+        border-top: 1px solid #646b88;
+        margin-top: 40px;
+        padding-top: 13px;
+        padding-bottom: 30px;
+    }
+    .titleBar__right-btn {
+        position: relative;
+        top: 2px;
+        left: 12px;
+        width: 36%;
+        height: 75%;
+        /* background-color: #20222e; */
+        clip-path: circle(50% at 50% 50%);
+        transition: all 200ms ease-in-out;
+    }
+    .container1 {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 60px;
+        /* height: ; */
+    }
+    .container1__box {
+        flex-basis: 70%;
+        height: 50%;
+        margin-top: 20px;
+    }
+    .container1__box-dark {
+        width: 70%;
+        height: 50%;
+        margin-top: 20px;
+    }
+    .container1__number {
+        font-size: 55px;
+    }
+    .container2 {
+        margin-top: 500px;
+        justify-content: center;
+        height: 60%;
+        width: 100%;
+    }
+    .container2__title {
+        height: 10%;
+        align-items: baseline;
+        align-self: flex-end;
+        font-size: large;
+    }
+    .container2__title-dark {
+        height: 8%;
+        align-items: baseline;
+        align-self: flex-end;
+        font-size: x-large;
+        font-size: large;
+    }
+    .container2__boxes {
+        flex-wrap: wrap;
+        width: 100%;
+        height: 60%;
+    }
+    .container2__box {
+        margin-top: 20px;
+        border-radius: 12px;
+        flex-basis: 100%;
+    }
+    .container2__box-dark {
+        margin-top: 20px;
+        border-radius: 12px;
+        flex-basis: 100%;
+        height: 40%;
+    }
+    .container2__social-dark {
+        font-size: larger;
+    }
+    .container2__social {
+        font-size: larger;
+    }
+    .container2__social img {
+        width: 30px;
+    }
+    .container2__social-dark {
+        font-size: larger;
+    }
+    .container2__social-dark img {
+        width: 30px;
+    }
+    .container2__scored {
+        font-size: x-large;
+    }
+    .attribution {
+        position: relative;
+        margin-top: 1700px;
+    }
+    .attribution-dark {
+        position: relative;
+        margin-top: 1700px;
+    }
+}
+
+
+/*SMARTPHONE RESPONSIVE DESIGN*/
+
+@media(max-width:511px) {
+    .titleBar__left h1 {
+        font-size: 20px;
+    }
+    .titleBar__right {
+        justify-content: space-between;
+        width: 100%;
+        border-top: 1px solid #646b88;
+        margin-top: 40px;
+        padding-top: 13px;
+        padding-bottom: 30px;
+    }
+    .container1 {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 60px;
+        margin-bottom: 120px;
+        /* height: ; */
+    }
+    .container1__box {
+        flex-basis: 100%;
+        height: 80%;
+        margin-top: 20px;
+    }
+    .container1__box-dark {
+        width: 100%;
+        height: 80%;
+        margin-top: 20px;
+    }
+    .container1__number {
+        font-size: 55px;
+    }
+    .container2 {
+        margin-top: 460px;
+        justify-content: center;
+        height: 60%;
+        width: 100%;
+    }
+    .container2__title {
+        height: 10%;
+        align-items: baseline;
+        align-self: flex-end;
+        font-size: large;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .container2__title-dark {
+        height: 8%;
+        align-items: baseline;
+        align-self: flex-end;
+        font-size: x-large;
+        font-size: large;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .container2__boxes {
+        flex-wrap: wrap;
+        width: 100%;
+        height: 60%;
+    }
+    .container2__box {
+        margin-top: 20px;
+        border-radius: 12px;
+        flex-basis: 100%;
+        height: 60%;
+    }
+    .container2__box-dark {
+        margin-top: 20px;
+        border-radius: 12px;
+        flex-basis: 100%;
+        height: 60%;
+    }
+    .container2__social img {
+        width: 30px;
+    }
+    .container2__social-dark img {
+        width: 30px;
+    }
+    .attribution {
+        position: relative;
+        margin-top: 1700px;
+    }
+    .attribution-dark {
+        position: relative;
+        margin-top: 1700px;
+    }
+}
