@@ -1,7 +1,5 @@
 const $html = document.querySelector("#all")
 
-var $html_color = window.getComputedStyle($html, "background");
-console.log($html_color);
 $html_bg = $html.style.background;
 console.log($html.style.background);
 
