@@ -38,7 +38,9 @@
     /* background: -webkit-linear-gradient(top, #20222e 30%, #1d2029 30%); */
     box-sizing: border-box;
 }
-
+.html-dark {
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(rgb(32, 34, 46) 30%, rgb(29, 32, 41) 30%) repeat scroll 0% 0% !important;
+}
 .main {
     display: flex;
     flex-direction: column;

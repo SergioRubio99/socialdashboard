@@ -6,6 +6,7 @@ console.log($html.style.background);
 function dark_mode() {
     console.log("Hi buddies!");
     let $html = document.getElementById("html");
+    $html.classList.toggle('html-dark');
     let $titleBarSpan = document.querySelector('.titleBar__left-span');
     let $titleBarH1 = document.querySelector('.titleBar__left-h1');
     let $attribution = document.querySelector('.attribution');
