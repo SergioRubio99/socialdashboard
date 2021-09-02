@@ -66,11 +66,11 @@ function dark_mode() {
 
 
     let $titleBarDark = document.querySelector('.titleBar-dark');
-    $titleBarDark.classList.replace('titleBar-dark', 'titleBar-darkMode');
+    $titleBarDark.classList.toggle('titleBar-darkMode');
 
 
     let $titleBarRightBg = document.querySelector('.titleBar__right-bg-background');
-    $titleBarRightBg.classList.replace('titleBar__right-bg-background', 'titleBar__right-bg-background-dark')
+    $titleBarRightBg.classList.toggle('titleBar__right-bg-background-dark')
 
 
 
@@ -82,10 +82,10 @@ function dark_mode() {
 
 
     $html.style.setProperty("background", "-webkit-linear-gradient(top, #20222e 30%, #1d2029 30%)");
-    $titleBarSpan.classList.remove('titleBar__left-span');
-    $titleBarSpan.classList.add('titleBar__left-span-dark');
-    $titleBarH1.classList.remove('titleBar__left-h1');
-    $titleBarH1.classList.add('titleBar__left-h1-dark');
+  
+    $titleBarSpan.classList.toggle('titleBar__left-span-dark');
+  
+    $titleBarH1.classList.toggle('titleBar__left-h1-dark');
     //Here is the example. Without creating separate variables, I would have to use $container1box.classList.replace('container1__box', 'container1__box-dark');
     $container1box_1.classList.toggle('container1__box-dark');
     $container1box_2.classList.toggle('container1__box-dark');
