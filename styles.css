@@ -35,7 +35,7 @@
 }
 
 #html {
-    /* background: -webkit-linear-gradient(top, #20222e 30%, #1d2029 30%); */
+    background: -webkit-linear-gradient(top, #20222e 30%, #1d2029 30%);
     box-sizing: border-box;
 }
 .html-dark {

@@ -82,6 +82,7 @@ function dark_mode() {
     console.log($container1box_1, $container1box_2, $container1box_3, $container1box_4);
 
 
+    // $html.style.setProperty("background", "-webkit-linear-gradient(top, #20222e 30%, #1d2029 30%)");
     $titleBarSpan.classList.toggle('titleBar__left-span-dark');
   
     $titleBarH1.classList.toggle('titleBar__left-h1-dark');
