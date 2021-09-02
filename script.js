@@ -75,7 +75,7 @@ function dark_mode() {
 
 
     let $titleBarRightBtnColor = document.querySelector(".titleBar__right-btn-color");
-    $titleBarRightBtnColor.classList.replace('titleBar__right-btn-color', 'titleBar__right-btn-color-dark')
+    $titleBarRightBtnColor.classList.toggle('titleBar__right-btn-color-dark')
         //Here, I decided to create a variable with each element of $container1box, because you can't modify the array container1box itself while you use it in the same method. That array is made of classes, if you modify them while using it as a reference, you will get a bug.
     console.log($container1box)
     console.log($container1box_1, $container1box_2, $container1box_3, $container1box_4);
