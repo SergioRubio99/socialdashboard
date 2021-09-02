@@ -87,60 +87,59 @@ function dark_mode() {
     $titleBarH1.classList.remove('titleBar__left-h1');
     $titleBarH1.classList.add('titleBar__left-h1-dark');
     //Here is the example. Without creating separate variables, I would have to use $container1box.classList.replace('container1__box', 'container1__box-dark');
-    $container1box_1.classList.replace('container1__box', 'container1__box-dark');
-    $container1box_2.classList.replace('container1__box', 'container1__box-dark');
-    $container1box_3.classList.replace('container1__box', 'container1__box-dark');
-    $container1box_4.classList.replace('container1__box', 'container1__box-dark');
+    $container1box_1.classList.toggle('container1__box-dark');
+    $container1box_2.classList.toggle('container1__box-dark');
+    $container1box_3.classList.toggle('container1__box-dark');
+    $container1box_4.classList.toggle('container1__box-dark');
 
 
 
-    $container1Number_1.classList.replace('container1__number', 'container1__number-dark');
-    $container1Number_2.classList.replace('container1__number', 'container1__number-dark');
-    $container1Number_3.classList.replace('container1__number', 'container1__number-dark');
-    $container1Number_4.classList.replace('container1__number', 'container1__number-dark');
+    $container1Number_1.classList.toggle('container1__number-dark');
+    $container1Number_2.classList.toggle('container1__number-dark');
+    $container1Number_3.classList.toggle('container1__number-dark');
+    $container1Number_4.classList.toggle('container1__number-dark');
+
+    $container1subNumber_1.classList.toggle('container1__subNumber-dark');
+    $container1subNumber_2.classList.toggle('container1__subNumber-dark');
+    $container1subNumber_3.classList.toggle('container1__subNumber-dark');
+    $container1subNumber_4.classList.toggle('container1__subNumber-dark');
 
 
-    $container1subNumber_1.classList.replace('container1__subNumber', 'container1__subNumber-dark');
-    $container1subNumber_2.classList.replace('container1__subNumber', 'container1__subNumber-dark');
-    $container1subNumber_3.classList.replace('container1__subNumber', 'container1__subNumber-dark');
-    $container1subNumber_4.classList.replace('container1__subNumber', 'container1__subNumber-dark');
+    $container2title.classList.toggle('container2__title-dark');
 
+    $container1media.classList.toggle("container1__media-ig-dark")
 
-    $container2title.classList.replace('container2__title', 'container2__title-dark');
-
-    $container1media.classList.replace("container1__media-ig", "container1__media-ig-dark")
-
-    $container2box_1.classList.replace('container2__box', 'container2__box-dark');
-    $container2box_2.classList.replace('container2__box', 'container2__box-dark');
-    $container2box_3.classList.replace('container2__box', 'container2__box-dark');
-    $container2box_4.classList.replace('container2__box', 'container2__box-dark');
-    $container2box_5.classList.replace('container2__box', 'container2__box-dark');
-    $container2box_6.classList.replace('container2__box', 'container2__box-dark');
-    $container2box_7.classList.replace('container2__box', 'container2__box-dark');
-    $container2box_8.classList.replace('container2__box', 'container2__box-dark');
-
-
-
-
-    $container2number_1.classList.replace('container2__number', 'container2__number-dark');
-    $container2number_2.classList.replace('container2__number', 'container2__number-dark');
-    $container2number_3.classList.replace('container2__number', 'container2__number-dark');
-    $container2number_4.classList.replace('container2__number', 'container2__number-dark');
-    $container2number_5.classList.replace('container2__number', 'container2__number-dark');
-    $container2number_6.classList.replace('container2__number', 'container2__number-dark');
-    $container2number_7.classList.replace('container2__number', 'container2__number-dark');
-    $container2number_8.classList.replace('container2__number', 'container2__number-dark');
+    $container2box_1.classList.toggle('container2__box-dark');
+    $container2box_2.classList.toggle('container2__box-dark');
+    $container2box_3.classList.toggle('container2__box-dark');
+    $container2box_4.classList.toggle('container2__box-dark');
+    $container2box_5.classList.toggle('container2__box-dark');
+    $container2box_6.classList.toggle('container2__box-dark');
+    $container2box_7.classList.toggle('container2__box-dark');
+    $container2box_8.classList.toggle('container2__box-dark');
 
 
 
-    $container2social_1.classList.replace('container2__social', 'container2__social-dark');
-    $container2social_2.classList.replace('container2__social', 'container2__social-dark');
-    $container2social_3.classList.replace('container2__social', 'container2__social-dark');
-    $container2social_4.classList.replace('container2__social', 'container2__social-dark');
-    $container2social_5.classList.replace('container2__social', 'container2__social-dark');
-    $container2social_6.classList.replace('container2__social', 'container2__social-dark');
-    $container2social_7.classList.replace('container2__social', 'container2__social-dark');
-    $container2social_8.classList.replace('container2__social', 'container2__social-dark');
+
+    $container2number_1.classList.toggle('container2__number-dark');
+    $container2number_2.classList.toggle('container2__number-dark');
+    $container2number_3.classList.toggle('container2__number-dark');
+    $container2number_4.classList.toggle('container2__number-dark');
+    $container2number_5.classList.toggle('container2__number-dark');
+    $container2number_6.classList.toggle('container2__number-dark');
+    $container2number_7.classList.toggle('container2__number-dark');
+    $container2number_8.classList.toggle('container2__number-dark');
+
+
+
+    $container2social_1.classList.toggle('container2__social-dark');
+    $container2social_2.classList.toggle('container2__social-dark');
+    $container2social_3.classList.toggle('container2__social-dark');
+    $container2social_4.classList.toggle('container2__social-dark');
+    $container2social_5.classList.toggle('container2__social-dark');
+    $container2social_6.classList.toggle('container2__social-dark');
+    $container2social_7.classList.toggle('container2__social-dark');
+    $container2social_8.classList.toggle('container2__social-dark');
 
 }
 
