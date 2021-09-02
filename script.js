@@ -9,7 +9,7 @@ function dark_mode() {
     let $titleBarSpan = document.querySelector('.titleBar__left-span');
     let $titleBarH1 = document.querySelector('.titleBar__left-h1');
     let $attribution = document.querySelector('.attribution');
-    $attribution.classList.replace('attribution', 'attribution-dark')
+    $attribution.classList.toggle('attribution-dark')
     let $container1box = document.getElementsByClassName('container1__box');
     let $container1box_1 = $container1box[0]
     let $container1box_2 = $container1box[1]
